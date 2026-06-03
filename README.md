@@ -1,6 +1,7 @@
 # AtendeLab
 Sistema de Controle de Atendimentos Acadêmicos desenvolvido na disciplina de Fábrica de
 Software.
+
 ## Tecnologias utilizadas
 - PHP 8.x
 - MySQL
@@ -9,6 +10,7 @@ Software.
 - CSS
 - Bootstrap
 - Git e GitHub
+
 ## Funcionalidades previstas
 - Página pública
 - Login
@@ -17,6 +19,7 @@ Software.
 - Cadastro de tipos de atendimento
 - Registro de atendimentos
 - Relatórios
+
 ## Como executar localmente
 1. Clonar o repositório.
 2. Colocar a pasta no htdocs do XAMPP.
