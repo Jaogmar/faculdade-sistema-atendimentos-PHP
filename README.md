@@ -27,3 +27,12 @@ Software.
 4. Criar o banco atendelab.
 5. Importar o script database/atendelab.sql.
 6. Acessar http://localhost/atendelab/public/
+
+## Acesso ao sistema (login)
+- A aplicação abre direto na tela de login (`?controller=auth&action=login`).
+- Usuário de teste padrão:
+  - E-mail: `admin@atendelab.com`
+  - Senha: `123456`
+- As senhas são armazenadas com `password_hash()` e validadas com `password_verify()`.
+- Páginas internas (dashboard e CRUDs) exigem sessão ativa; sem login o acesso é
+  redirecionado para a tela de login. Use o botão **Sair** para encerrar a sessão.
