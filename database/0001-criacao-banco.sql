@@ -1,3 +1,4 @@
+
 CREATE TABLE usuarios (
     id        INT AUTO_INCREMENT PRIMARY KEY,
     nome      VARCHAR(150) NOT NULL,
@@ -7,6 +8,7 @@ CREATE TABLE usuarios (
     status    ENUM('ativo', 'inativo')            NOT NULL DEFAULT 'ativo',
     criado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
+
 
 CREATE TABLE pessoas (
     id        INT AUTO_INCREMENT PRIMARY KEY,

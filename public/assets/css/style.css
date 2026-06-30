@@ -1,0 +1,12 @@
+main {
+  min-height: 70vh;
+}
+
+.card-indicador .display-6 {
+  font-weight: 600;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
